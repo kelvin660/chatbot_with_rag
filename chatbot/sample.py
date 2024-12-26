@@ -20,24 +20,7 @@ from flask import Flask, request, render_template, jsonify
 from langchain import hub
 import fitz  # PyMuPDF
 import torch
-# from langchain_core.output_parsers import BaseOutputParser
-# from pydantic import BaseModel
 
-# class ExtractStringAfterTextParser(BaseOutputParser[str], BaseModel):
-#     target_text: str
-
-#     def parse(self, text: str) -> str:
-#         # Extract the string after the target text
-#         start_index = text.index(self.target_text) + len(self.target_text)
-#         return text[start_index:].strip()
-
-
-#     @property
-#     def _type(self) -> str:
-#         return "extract_string_after_text_parser"
-
-# # Initialize the custom output parser
-# output_parser = ExtractStringAfterTextParser(target_text="Answer:")
 
 # Initialize the Flask application
 app = Flask(__name__)
@@ -245,7 +228,6 @@ def get_bot_response():
                 }
             }]
         }
-        #need to return json???
         return jsonify(response)
 
     except Exception as e:
