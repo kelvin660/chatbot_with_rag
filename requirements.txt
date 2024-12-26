@@ -1,0 +1,19 @@
+flask
+transformers
+langchain
+bs4
+torch
+bitsandbytes
+#pip install 'accelerate>=0.26.0
+accelerate
+pinecone-client
+python-dotenv
+langchain_community
+pypdf
+sentence-transformers
+tf-keras
+bs4
+nltk
+schema
+pymupdf
+pdfplumber
