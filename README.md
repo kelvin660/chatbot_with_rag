@@ -1,6 +1,7 @@
 Chatbot with RAG
 
 Use your own LLM 
+
 Use the your own api key for Pinecone
 
 To Run
