@@ -10,3 +10,5 @@ To Run
 3. Visit http://localhost:5000 in your browser to access the chatbot UI
 
 ![Example Image](image.png)
+
+![Example Image](image2.png)
